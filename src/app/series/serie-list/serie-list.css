@@ -1,0 +1,40 @@
+.series-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.serie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.serie-poster {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.serie-card h3 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.serie-card p {
+  margin: 4px 0;
+}
+
+.serie-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.serie-card a:hover {
+  text-decoration: underline;
+}
